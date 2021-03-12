@@ -6,5 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-
-# Game.create(title: 'Boderlands 3')
+# Console.create(name: 'Xbox Series X')
+# Console.create(name: 'Xbox Series S')
+# Game.create(title: 'Boderlands 3', fps: '120', notes: 'Free upgrade with Smart Delivery', resolution: '1080p at 120fps, 4K at 60fps', console_id: 2)
+Game.create(title: 'Boderlands 3', fps: '60', notes: 'Free upgrade with Smart Delivery', resolution: '1440p at 60fps', console_id: 3)
