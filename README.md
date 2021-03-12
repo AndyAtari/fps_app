@@ -1,24 +1,18 @@
-# README
+# FPS Tracker
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Motivation
 
-Things you may want to cover:
+## Installation 
 
-* Ruby version
+## Roadmap
 
-* System dependencies
+## Contributing 
 
-* Configuration
+I welcome and encourage contribution from the video game community. 
 
-* Database creation
+Bug reports and pull requests are welcome on GitHub at https://github.com/AndyAtari/fps_app. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
 
-* Database initialization
+## License
 
-* How to run the test suite
+The app is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
