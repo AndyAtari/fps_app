@@ -11,14 +11,12 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema.define(version: 2021_03_11_170513) do
-
-  create_table "games", force: :cascade do |t|
-    t.string "title"
-    t.string "fps"
-    t.string "console"
-    t.text "notes"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
+  create_table 'games', force: :cascade do |t|
+    t.string 'title'
+    t.string 'fps'
+    t.string 'console'
+    t.text 'notes'
+    t.datetime 'created_at', precision: 6, null: false
+    t.datetime 'updated_at', precision: 6, null: false
   end
-
 end
