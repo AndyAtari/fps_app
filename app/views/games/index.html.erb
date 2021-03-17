@@ -11,7 +11,7 @@
 
 <% @games.each do |game| %>
     <tr>
-        <td><%= game.title %></td>
+        <td><%= link_to game.title, game_path(game) %></td>
         <td><%= game.console.name%></td>
         <td><%= game.fps%></td>
         <td><%= game.resolution%></td>
