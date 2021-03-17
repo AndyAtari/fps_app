@@ -1,5 +1,7 @@
 body {
   text-align: center;
+  background-color: #0E7A0D;
+  color: white;
 }
 
 .table {
@@ -15,3 +17,9 @@ th,
 td {
   border: 1px solid #d7dbdd;
 }
+
+a {
+  color: black;
+  font-size: larger;
+}
+
