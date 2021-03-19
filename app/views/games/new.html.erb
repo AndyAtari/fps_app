@@ -1,2 +1,31 @@
 <h2> Add Xbox Game </h2>
 
+<%= form_for(@game) do |f| %>
+
+<div class="form">
+    <%= f.label :title%><br>
+    <%= f.text_field :title%>
+</div>
+
+<%# Add console.id selection %>
+<div class="form"> 
+</div>
+
+<div class="form">
+    <%= f.label :fps%><br>
+    <%= f.select :fps, (['120', '60']), :include_blank => true%>
+</div>
+
+<div class="form">
+    <%= f.label :resolution%><br>
+    <%= f.text_field :resolution%>
+</div>
+
+<div class="form">
+    <%= f.label :notes%><br>
+    <%= f.text_field :notes%>
+</div><br>
+
+<%=f.submit%>
+
+<%end%>
