@@ -8,5 +8,5 @@
 
 # Console.create(name: 'Xbox Series X')
 # Console.create(name: 'Xbox Series S')
-# Game.create(title: 'Boderlands 3', fps: '120', notes: 'Free upgrade with Smart Delivery', resolution: '1080p at 120fps, 4K at 60fps', console_id: 2)
-Game.create(title: 'Boderlands 3', fps: '60', notes: 'Free upgrade with Smart Delivery', resolution: '1440p at 60fps', console_id: 3)
+Game.create(title: 'Borderlands 3', fps: '120', notes: 'Free upgrade with Smart Delivery', resolution: '1080p at 120fps, 4K at 60fps', console_id: 1)
+Game.create(title: 'Borderlands 3', fps: '60', notes: 'Free upgrade with Smart Delivery', resolution: '1440p at 60fps', console_id: 2)
