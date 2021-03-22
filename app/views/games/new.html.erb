@@ -9,6 +9,8 @@
 
 <%# Add console.id selection %>
 <div class="form"> 
+<label>Select Console</label>
+<p><%=f.collection_select :console_id, Console.all, :id, :name, include_blank: true%></p>
 </div>
 
 <div class="form">
