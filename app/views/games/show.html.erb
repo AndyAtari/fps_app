@@ -1,7 +1,8 @@
 <h1><%= @game.title%></h1>
 <h2><%= @game.console.name%></h1>
-<p><%= @game.fps%> FPS</p>
-<p><%= @game.resolution%></p>
-<p><%= @game.notes%></p>
-<%= link_to "Digital Foundry Review", "#{@game.link}", target: :_blank%>
+<h3><%= @game.fps%> FPS</h3>
+<h3><%= @game.resolution%></h3>
+<h3><%= @game.notes%></h3>
+<p><%= link_to "Digital Foundry Performance Review of #{@game.title}", "#{@game.link}", target: :_blank%></p>
+<%= link_to image_tag("/df.jpeg"), "#{@game.link}", target: :_blank%>
 
