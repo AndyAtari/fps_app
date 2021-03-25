@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_03_12_182744) do
+ActiveRecord::Schema.define(version: 2021_03_25_173612) do
 
   create_table "consoles", force: :cascade do |t|
     t.string "name"
@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(version: 2021_03_12_182744) do
     t.datetime "updated_at", precision: 6, null: false
     t.string "resolution"
     t.integer "console_id"
+    t.string "link"
   end
 
 end
