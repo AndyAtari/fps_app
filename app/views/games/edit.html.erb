@@ -1,0 +1,37 @@
+<h1>EDIT GAME</h1>
+
+<%= form_for(@game) do |f| %>
+
+<div class="form">
+    <%= f.label :title%><br>
+    <%= f.text_field :title%>
+</div>
+
+<div class="form"> 
+<label>Select Console</label>
+<p><%=f.collection_select :console_id, Console.all, :id, :name, include_blank: true%></p>
+</div>
+
+<div class="form">
+    <%= f.label :fps%><br>
+    <%= f.select :fps, (['120', '60']), :include_blank => true%>
+</div>
+
+<div class="form">
+    <%= f.label :resolution%><br>
+    <%= f.text_field :resolution%>
+</div>
+
+<div class="form">
+    <%= f.label :notes%><br>
+    <%= f.text_area :notes%>
+</div>
+
+<div class="form">
+    <%= f.label :link%><br>
+    <%= f.text_field :link%>
+</div>
+
+<%=f.submit%>
+
+<%end%> 

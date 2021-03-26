@@ -51,4 +51,9 @@ input[type=submit] {
   cursor: pointer;
 }
 
+.update_link :hover {
+  color: lime;
+  font-weight: 700;
+}
+
 

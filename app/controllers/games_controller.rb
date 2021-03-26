@@ -1,6 +1,6 @@
 class GamesController < ApplicationController
 
-    before_action :set_game, only: [:show, :edit]
+    before_action :set_game, only: [:show, :edit, :update]
 
     def index
         @games = Game.all
@@ -22,6 +22,11 @@ class GamesController < ApplicationController
             redirect_to game_path(@game)
         end
     end
+
+    def update 
+        @game.update(game_params)
+        redirect_to game_path(@game)
+    end 
 
 
     private
