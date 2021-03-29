@@ -56,4 +56,24 @@ input[type=submit] {
   font-weight: 700;
 }
 
+.topnav {
+  overflow: hidden;
+  background-color: #414a4c;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: large;
+  font-family: OCR A Std, monospace;
+}
+
+.xbox-pics {
+  padding: 20px;
+}
+
 

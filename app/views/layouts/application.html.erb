@@ -11,8 +11,12 @@
 
   <body>
     <h1>Xbox FPS TRACKER!</h1>
+    <div class="topnav">
     <p><%=link_to "Home", root_path%></p>
-    <p><%= link_to "Add a Game", new_game_path%>
+    <p><%= link_to "All Games", games_path%></p>
+    <p><%= link_to "Add a Game", new_game_path%></p>
+    </div>
+    
     <%= yield %>
   </body>
 </html>
