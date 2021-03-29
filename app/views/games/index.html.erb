@@ -7,6 +7,7 @@
 <th>Max FPS</th>
 <th>Resolution</th>
 <th>Notes</th>
+<th>Update/Delete</th>
 </tr>
 
 <% @games.each do |game| %>
@@ -16,6 +17,7 @@
         <td><%= game.fps%></td>
         <td><%= game.resolution%></td>
         <td><%= game.notes%></td>
+        <td><%=link_to "Edit #{game.title}", edit_game_path(game)%></td>
     </tr>
 <% end %>
 
