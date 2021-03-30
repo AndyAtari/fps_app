@@ -51,6 +51,11 @@ input[type=submit] {
   cursor: pointer;
 }
 
+input[type=submit]:hover {
+  color: limegreen;
+  font-weight: 700;
+}
+
 a:hover {
   color: lime;
   font-weight: 700;
@@ -75,5 +80,6 @@ a:hover {
 .xbox-pics {
   padding: 20px;
 }
+
 
 
